@@ -1,0 +1,153 @@
+div.header {
+    height: 2em;
+    width: 100%;
+    background: #eee;
+    position: static;
+    top: 0px;
+}
+
+div#main {}
+
+footer {
+    height: 2em;
+    width: 100%;
+    background: #eee;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0px;
+}
+
+text.sequence {
+    text-anchor: middle;
+    font-family: monospace;
+}
+
+line.sequence-bg {
+    stroke-width: 3px;
+    stroke: #aaa;
+}
+
+g.axis-bubble text {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    font-family: monospace;
+}
+
+g.axis-bubble rect {
+    stroke: #777;
+    fill: white;
+}
+
+svg.pviz rect.background {
+    fill: #f5f5f5;
+}
+
+rect.layer-background {
+    fill: white;
+    opacity: 0;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+g.layer:hover rect.layer-background {
+    opacity: 1;
+}
+
+
+/**
+ *     color brewer 7 class paired #a6cee3 #1f78b4 #b2df8a #33a02c #fb9a99 #e31a1c #fdbf6f
+ */
+
+g.feature rect.feature {
+    fill: #a6cee3;
+    fill-opacity: 0.9;
+    stroke: #555;
+    stroke-opacity: 0.6;
+}
+
+g.feature text {
+    alignment-baseline: middle;
+    opacity: 0.75;
+}
+
+g.feature.Region rect.feature {
+    fill: #1f78b4;
+}
+
+g.feature.Molecule_processing rect.feature {
+    fill: #b2df8a;
+}
+
+g.layer g.strikeout line {
+    stroke: #bbb;
+    stroke-width: 2px;
+}
+
+.iq-main-header {
+    margin-bottom: 60px !important;
+}
+
+.slick-list {
+    margin-top: -40px !important;
+    margin-bottom: 40px !important;
+}
+
+.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.MuiAvatar-root.MuiAvatar-circular.MuiAvatar-colorDefault.css-2s90m6-MuiAvatar-root {
+    background: black !important;
+    border: 1px solid #E50914 !important;
+    color: #E50914 !important;
+}
+
+.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root {
+    color: #E50914 !important;
+}
+
+.favorites-slider li.slide-item {
+    width: auto !important;
+}
+
+.cart {
+    width: 254px !important;
+    margin-top: 40px !important;
+}
+
+h6.iq-title.title-size {
+    font-size: 26px !important;
+}
+
+.img-fluid.card-img {
+    height: 210px !important;
+}
+
+.favorites-slider .slick-list,
+#top-ten-slider-nav .slick-list {
+    overflow: visible;
+    /* padding-bottom: 40px !important; */
+    margin-top: 0px !important;
+}
+
+.iq-main-header.d-flex.align-items-center.justify-content-between {
+    margin-bottom: 20px !important;
+}
+
+.parallax-window {
+    height: 100%;
+    padding: 100px 0;
+    position: relative;
+    background: url(https://templates.iqonic.design/streamit/frontend/react/build/static/media/p1.af0d97de.jpg)50%;
+    background-attachment: scroll;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#parallex {
+    margin-top: 0 !important;
+    margin-bottom: 40px !important;
+}
